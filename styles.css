@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&family=Roboto:wght@700;900&display=swap');
+body{
+    font-family:"mulish";
+}
+
+.container { 
+    flex-direction: row;
+    display:flex;
+    width: 100rem; 
+}
+.left {
+    align-items: center;
+    width: 50%;
+}
+.right {
+    image-rendering:;
+    background: black;
+    padding: 20px 0 0 50px;
+    padding-top: 10px;
+    Width:50%;
+}
+.iconGit {
+text-align: center;
+flex-direction: initial;
+margin-top:3rem ;
+}
+.object-usuario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+.titulo-usuario{
+  text-align: center;
+  font-size: 24px;
+  margin: 1rem 0 1rem -3rem;
+ }
+ .Form-Subtitulo {
+    color: grey;
+    margin-right:30px;
+    text-align: center;
+    font-size: 13px;
+    margin: 1rem 0 1rem 2rem;
+ }
+.box-username{
+    height: 30px; 
+    width: 300px;
+    align-items: center;
+    margin: 0rem 0 1rem 17rem;
+}
+.Form-cadastro{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    height: 40px; 
+    width: 310px;
+    align-items: center;
+    margin: 0rem 0 1rem 17rem;
+}
+.test01{
+ 
+    align-items: center;
+}
+.Frase-img {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    font-size: 40px;
+}
+.termos-politica-privacidade {
+    color: grey;
+    position:unset;
+    text-align:center;
+    margin: 23rem 15rem 2rem 17rem;
+}
+
