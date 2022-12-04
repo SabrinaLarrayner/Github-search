@@ -1,76 +1,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&family=Roboto:wght@700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family:"mulish";
 }
 
-.container { 
-    flex-direction: row;
-    display:flex;
-    width: 100rem; 
-}
-.left {
-    align-items: center;
-    width: 50%;
-}
-.right {
-    image-rendering:;
-    background: black;
-    padding: 20px 0 0 50px;
-    padding-top: 10px;
-    Width:50%;
-}
-.iconGit {
-text-align: center;
-flex-direction: initial;
-margin-top:3rem ;
-}
-.object-usuario{
+.container{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 800px;
+    width: 100vw;
+    height: 100vh;    
 }
 .titulo-usuario{
-  text-align: center;
-  font-size: 24px;
-  margin: 1rem 0 1rem -3rem;
- }
- .Form-Subtitulo {
+    text-align:center ;
+    font-size: 24px;
+    margin: 1rem 0 1rem -3rem;
+}
+.Form-Subtitulo {
     color: grey;
     margin-right:30px;
     text-align: center;
     font-size: 13px;
-    margin: 1rem 0 1rem 2rem;
+    margin: 1rem 0 1rem 1rem;
  }
-.box-username{
-    height: 30px; 
+ .box-username{
+    border-radius: 3px;
+    position:initial;
+    right: 0px;
     width: 300px;
-    align-items: center;
-    margin: 0rem 0 1rem 17rem;
+    padding: 10px;  
+    margin-left:13%;
 }
 .Form-cadastro{
     background-color: black;
-    color: white;
-    border-radius: 20px;
-    height: 40px; 
-    width: 310px;
-    align-items: center;
-    margin: 0rem 0 1rem 17rem;
-}
-.test01{
- 
-    align-items: center;
-}
-.Frase-img {
-    background-color: black;
     color: aliceblue;
-    text-align: center;
-    font-size: 40px;
+    width: 335px;
+    border-radius: 12px;
+    padding: 0.7rem;
+    margin-top: 1rem;
+    margin-left:13%;
+
 }
-.termos-politica-privacidade {
-    color: grey;
-    position:unset;
-    text-align:center;
-    margin: 23rem 15rem 2rem 17rem;
+.left{
+    width: 50vw;
 }
 
+.iconGit {
+    text-align: center;
+    flex-direction: initial;
+    margin-top:3rem;
+}
+
+.searchUser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightImage{
+    background-image: url('/assets/images/rick.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: left;
+    background-position: fixed;
+    flex: 0.8;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50vw;
+    height: 100vh;
+    @media screen and (max-width: 960px) {
+    display: none;
+    }
+}
+
+.termos-politica-privacidade{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    
+    margin-top: 13.5rem;
+}
