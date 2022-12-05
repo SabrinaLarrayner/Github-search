@@ -4,30 +4,42 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styleUsuario.css" />
     <title>Usuários</title>
   </head>
   <body>
     <div class="container">
       <header>
-        <img src="./assets/images/iconGitUsuari.svg" alt="GithubUsuario" />
+        <img
+          class="IconGitUsuario"
+          src="./assets/images/iconGitUsuari.svg"
+          alt="GithubUsuario"
+        />
         <button class="button-adiconar-novo">Adicionar novo</button>
       </header>
       <div class="card-header">
-        <img src="./assets/imgJonh.svg" />
-        <h1>John Doe Santos <img src="./seta.svg" alt="seta" /></h1>
-        <h2>@johndoesantos</h2>
-
-        <div>
-          <img src="./assets/ImgPredio.svg" alt="IconPredio" />GO.K DIGITAL
-        </div>
-
-        <div>
+        
+          <img class="img-perfil" src="./assets/imgJonh.svg" />
+          <h1 class="name-user">
+            John Doe Santos <img src="./seta.svg" alt="seta" />
+          </h1>
+          <h2 class="sub-titulo-usuario">@johndoesantos</h2>
+          <div class="nome-empresa">
+          <img  src="./assets/ImgPredio.svg" alt="IconPredio" /> GO.K DIGITAL 
+         </div>
+      
+        <div class="loc-usuario">
           <img src="./assets/images/imgLocalizacaoPEQ.svg" /> São Paulo, Brazil
         </div>
-
-        <div>2
+        <div class="star-usuario">
+          2
           <img src="./assets/imgStar.svg" alt="Star" />
         </div>
+       
+        <div class="delete-pag-usuario">
+          <img src="./assets/images/deleteUsuario.svg" alt="delete" />
+        </div>
+       
       </div>
     </div>
   </body>

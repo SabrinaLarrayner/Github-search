@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&family=Roboto:wght@700;900&display=swap');
+body{
+  background-color: #F0F0F0;
+  font-family:"mulish";
+}
+header {
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  width: 100%;
+  height: 10%;
+ 
+}
+.IconGitUsuario{
+  margin-left: 40px;   
+}
+.button-adiconar-novo {
+    background-color: black;
+    color: white;
+    width: 165px;
+    border-radius: 20px;
+    padding: 7px;
+    margin: 5px 50px 5px 20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+.container{
+    display: contents;
+    width: 100vw;
+    height: 100vh;    
+}
+.img-perfil {
+  margin-inline-end: 10px;
+  float: left
+}
+
+.name-user{
+  float: left;
+  display: block;
+  border: transparent thin solid;
+  padding: 5px;
+}
+
+.sub-titulo-usuario{
+  display: block;
+  position: absolute;
+  margin: 55px 0 0 90px;
+  font-size: 15px;
+  color: gray;   
+}
+
+div .nome-empresa{
+  color: #7E7E7E;
+  display: block;
+  font-size: 12px;
+  position: absolute;
+  margin: 95px 0 0 122px;
+}
+div .loc-usuario {
+  color: #7E7E7E;
+  display: block;
+  font-size: 12px;
+  margin: 95px 0 0 0.1px;
+}
+
+div .star-usuario {
+  font-size: 13px;
+  color: #7E7E7E;
+  display: block;
+  margin: -20px 0 0 240px;
+}
+div .delete-pag-usuario {
+ display: block;
+ text-align: end;
+}
+.card-header { 
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 50px;
+    margin: 20px;   
+}
